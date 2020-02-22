@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pattaya|Press+Start+2P&display=swap');
+
+*{
+	font-family: 'Bradley Hand', cursive;
+	font-weight: 750
+}
+
+h1{
+  color: #E154DD;
+  font-family: 'Pattaya', sans-serif
+}
+
+.test{
+    color: #1AFFDB;
+	font-family:'Pattaya', sans-serif
+}
+
+.red{
+    color: red;
+	font-family: 'Pattaya', sans-serif
+}
+
+
+td{
+	width: 200px;
+	height: 200px;
+	border: solid 1px red;
+	text-align:center;
+}
+
+#shapka{
+	position: fixed; /*зафиксирована*/
+	background-color: green;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	padding: 0 16px;
+	margin-left: -10px;
+	z-index: 100;
+}
+/*
+.rotate{
+	transform: rotate(30deg) scale(0.75);
+}
+*/
+img:hover{
+	transform: rotate(-30deg) scale(0.73);	
+}
+
+    @keyframes text1
+    {
+        10%{opacity: 1;}
+        40%{opacity: 0;}
+    }  
+    @keyframes text2
+    {
+        30%{opacity: 0;}
+        60%{opacity:1;}
+    }
+    @keyframes banner
+    {
+        10%{background-color: #008978;}
+        40%{background-color: #34495e;}
+        80%{background-color: green;}
+    }
+    .banner
+    {
+        width: 600px;
+        height: 120px;
+        background-color: #777;
+        margin: 0 auto;
+        position: relative;
+    } 
+	.text1,.text2
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        line-height: 120px;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+        opacity: 0;
+    }
+ 
+    .text1
+    {
+        animation : text1 6s infinite;
+    }
+ 
+    .text2
+    {
+        animation : text2 6s infinite;
+    }
+ 
+    .animated
+    {
+        opacity: 0.8;
+        position: absolute;
+        width: 100%;
+        height: 100%;  
+        background-color: #34495e;
+        animation: banner 6s infinite;
+    }

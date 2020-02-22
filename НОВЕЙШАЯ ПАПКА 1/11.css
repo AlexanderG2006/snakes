@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pattaya|Press+Start+2P&display=swap');
+
+*{
+	font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+  color: #E154DD;
+  font-family: 'Pattaya', sans-serif
+}
+
+.test{
+    color: #1AFFDB;
+	font-family: 'Pattaya', sans-serif
+}
+
+.red{
+    color: red;
+	font-family: 'Pattaya', sans-serif
+}
+
+
+td{
+	width: 200px;
+	height: 200px;
+	bolder: solid 1px silver;
+	text-align:center;
+}
